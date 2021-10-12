@@ -60,7 +60,7 @@ Détermine les titres qui ont possiblement deux éditions dans la même liste.
 Pour chaque titre dans la liste, ConAn prélève le PPN et les colonnes du titre, de l'édition, de l'ISBN 13 et de l'ISBN 10.
 
 Il va ensuite générer une clef pour chaque titre :
-* il ne conserve de la donnée originelle que la partie du titre se trouvant avant ` / `, soit très généralement le titre propre (sauf si la dite chaîne de caractère se trouve dans le titre propre) ;
+* il ne conserve de la donnée originelle que la partie du titre se trouvant avant ` / ` (espaces avant et après), soit très généralement le titre propre (sauf si la dite chaîne de caractère se trouve dans le titre propre) ;
 * il supprime ensuite `[Texte imprimé]`, les articles définis et indéfinis, les parenthèses, crochets et la liste de caractères suivants : `, : ; . '` et remplace les tirets par des espaces ;
 * il divise alors son nouveau titre en autant de mots qu'il détecte (en utilisant les espaces comme séparateurs) ;
 * pour le premier mot, il conserve les 4 premiers caractères, puis les deux premiers caractères des trois mots suivants (s'ils existent), séparant les chaînes de caractères par des _underscores_ (`_`) ;
