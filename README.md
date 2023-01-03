@@ -1,5 +1,7 @@
 # ConAn - Contrôle Alma
 
+[![Abandonned](https://img.shields.io/badge/Maintenance%20Level-Abandoned-orange.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
+
 ConAn est un outil visant originellement à contrôler des données provenant d'Alma. En pratique, il permet également de donner certaines statistiques ou informations sur le fonds renseigné.
 
 **Évitez d'avoir d'autres fichiers Excel ouverts pendant l'analyse (dans le cas où une erreur de programmation pourrait faire intéragir ConAn avec des fichiers non prévus).**
